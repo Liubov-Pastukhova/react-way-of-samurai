@@ -1,0 +1,14 @@
+.profileDecoration img {
+    max-width: 1100px;
+    min-height: 200px;
+}
+.profile {
+    padding: 20px;
+}
+.profile img {
+    width: 80px;
+    height: 80px;
+}
+.profileStatusDecoration {
+    padding: 20px;
+}

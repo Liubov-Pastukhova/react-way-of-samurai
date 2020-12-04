@@ -1,0 +1,22 @@
+.nav {
+    grid-area: n;
+    background-color: #fd9012;
+    padding: 20px;
+  }
+.item a {
+    color: #002c3e;
+    text-decoration: none;
+}
+.item a.activeLink {
+    color: #ffffff;
+}
+.item_friends {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.navFriendsItem img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
