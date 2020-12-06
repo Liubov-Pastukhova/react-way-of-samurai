@@ -9,4 +9,4 @@ const Settings = (props) => {
     )
 }
 
-export default Settings;
+export { Settings };

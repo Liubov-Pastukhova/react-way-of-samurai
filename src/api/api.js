@@ -2,7 +2,7 @@ import * as axios from 'axios';
 
 const instance = axios.create({
     withCredentials: true,
-    baseURL: `https://test.com`,
+    baseURL: `https://test.com/`,
     headers: {
         "API-KEY": "test"
     }

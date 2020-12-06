@@ -16,7 +16,7 @@ const Navbar = (props) => {
         <div>
             <nav className={classes.nav}>
                 <div>{navbarElements}</div>
-                <div>{navbarFriendsElements}</div>
+                <div  className={classes.navFriendsItemBlock}>{navbarFriendsElements}</div>
             </nav>
         </div>
     );

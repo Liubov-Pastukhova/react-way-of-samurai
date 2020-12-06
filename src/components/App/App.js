@@ -1,16 +1,16 @@
 import React from 'react';
 import { Route} from 'react-router-dom';
 import './App.css';
-import DialogsContainer from './components/Dialogs/DialogsContainer';
-import Newspage from './components/Newspage/Newspage';
-import Music from './components/Music/Music';
-import Settings from './components/Settings/Settings';
-import NavbarContainer from './components/Navbar/NavbarContainer';
-import FriendsContainer from './components/Friends/FriendsContainer';
-import UsersContainer from './components/Users/UsersContainer';
-import ProfileContainer from './components/Profile/ProfileContainer';
-import HeaderContainer from './components/Header/HeaderContainer';
-import Login from './components/Login/Login';
+import DialogsContainer from '../Dialogs/DialogsContainer';
+import Newspage from '../Newspage/Newspage';
+import Music from '../Music/Music';
+import { Settings } from '../../components/Settings/Settings';
+import NavbarContainer from '../Navbar/NavbarContainer';
+import FriendsContainer from '../Friends/FriendsContainer';
+import UsersContainer from '../Users/UsersContainer';
+import ProfileContainer from '../Profile/ProfileContainer';
+import HeaderContainer from '../Header/HeaderContainer';
+import Login from '../Login/Login';
 
 
 const App = () => {

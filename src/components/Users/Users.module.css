@@ -1,7 +1,32 @@
+.usersPageContainer {
+    display: flex;
+    flex-direction: column;
+}
 .userPhoto {
     width: 150px;
 }
 
 .selectedPage {
     font-weight: bold;
+    border-bottom: 0.3px solid black;
+}
+.usersPageNav {
+    padding: 4px;
+}
+.pageNumber {
+    font-size: 18px;
+    margin: 4px;
+    cursor: pointer;
+}
+.userCardContainer {
+    display: flex;
+    flex-direction: column;
+}
+.usersCard {
+    width: min-content;
+    padding: 20px;
+    border: 0.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }

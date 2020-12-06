@@ -14,7 +14,6 @@ const ProfileInfo = (props) => {
     }
     return (
         <div>
-            <div className={classes.profileDecoration}><img src={profileBanner} /></div>
             <div className={classes.profile}>
                 <div>
                     <img src={props.profile.photos.large ? props.profile.photos.large : userPhoto} />
